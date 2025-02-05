@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.app.pravin_unit_testing.app-mergeDebugResources-70:/layout/fragment_register.xml",
+        "source": "com.app.pravin_unit_testing.app-main-73:/layout/fragment_register.xml"
+    },
+    {
+        "merged": "com.app.pravin_unit_testing.app-mergeDebugResources-70:/layout/fragment_post.xml",
+        "source": "com.app.pravin_unit_testing.app-main-73:/layout/fragment_post.xml"
+    },
+    {
+        "merged": "com.app.pravin_unit_testing.app-mergeDebugResources-70:/layout/activity_main.xml",
+        "source": "com.app.pravin_unit_testing.app-main-73:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.app.pravin_unit_testing.app-mergeDebugResources-70:/layout/row_post_items.xml",
+        "source": "com.app.pravin_unit_testing.app-main-73:/layout/row_post_items.xml"
+    },
+    {
+        "merged": "com.app.pravin_unit_testing.app-mergeDebugResources-70:/layout/fragment_login.xml",
+        "source": "com.app.pravin_unit_testing.app-main-73:/layout/fragment_login.xml"
+    }
+]

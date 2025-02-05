@@ -1,0 +1,56 @@
+INFO: Constructing runner from config.
+INFO: Configuring Android Instrumentation driver: android_instrumentation_runtime {
+  instrumentation_info {
+    app_package: "com.app.pravin_unit_testing"
+    test_package: "com.app.pravin_unit_testing.test"
+    test_runner_class: "androidx.test.runner.AndroidJUnitRunner"
+  }
+  instrumentation_args {
+    args_map {
+      key: "additionalTestOutputDir"
+      value: "/sdcard/Android/media/com.app.pravin_unit_testing/additional_test_output"
+    }
+    args_map {
+      key: "class"
+      value: "com.app.retrofitapi.LoginViewModelTest#registerSuccess"
+    }
+  }
+}
+am_instrument_timeout: 31536000
+
+INFO: Configuring AndroidTestApkInstallerPlugin: apks_to_install {
+  apk_paths: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/apk/debug/app-debug.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+apks_to_install {
+  apk_paths: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk"
+  install_options {
+  }
+  uninstall_after_test: true
+}
+
+INFO: No installables found in test fixture. Nothing to install.
+INFO: Installing [/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/apk/debug/app-debug.apk] on device R9ZX50HC42T.
+INFO: Installing [/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/apk/androidTest/debug/app-debug-androidTest.apk] on device R9ZX50HC42T.
+INFO: Start logcat streaming.
+INFO: Running Android Instrumentation driver.
+INFO: Copying files from device to host: /sdcard/Android/media/com.app.pravin_unit_testing/additional_test_output to /Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/connected_android_test_additional_output/debugAndroidTest/connected/SM-M145F - 14
+INFO: Stop logcat streaming.
+INFO: Uninstalling com.app.pravin_unit_testing for device R9ZX50HC42T.
+INFO: Uninstalling com.app.pravin_unit_testing.test for device R9ZX50HC42T.
+SEVERE: Execute com.app.retrofitapi.LoginViewModelTest.registerSuccess: FAILED
+java.lang.IllegalStateException: java.lang.IllegalStateException: Cannot invoke setValue on a background thread
+at androidx.lifecycle.LiveData.assertMainThread(LiveData.java:502)
+at androidx.lifecycle.LiveData.setValue(LiveData.java:306)
+at androidx.lifecycle.MutableLiveData.setValue(MutableLiveData.java:50)
+at com.app.pravin_unit_testing.ui.login.LoginViewModel.register(LoginViewModel.kt:15)
+at com.app.retrofitapi.LoginViewModelTest.registerSuccess(LoginViewModelTest.kt:27)
+
+java.lang.IllegalStateException: Cannot invoke setValue on a background thread
+at androidx.lifecycle.LiveData.assertMainThread(LiveData.java:502)
+at androidx.lifecycle.LiveData.setValue(LiveData.java:306)
+at androidx.lifecycle.MutableLiveData.setValue(MutableLiveData.java:50)
+at com.app.pravin_unit_testing.ui.login.LoginViewModel.register(LoginViewModel.kt:15)
+at com.app.retrofitapi.LoginViewModelTest.registerSuccess(LoginViewModelTest.kt:27)

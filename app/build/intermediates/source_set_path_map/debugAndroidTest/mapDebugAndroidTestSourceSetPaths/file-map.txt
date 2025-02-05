@@ -1,0 +1,6 @@
+com.app.pravin_unit_testing.test.app-tracing-1.2.0-0 /Users/sonoma/.gradle/caches/8.9/transforms/40dec95f31712b3d49f20c3f762608f0/transformed/tracing-1.2.0/res
+com.app.pravin_unit_testing.test.app-core-1.6.1-1 /Users/sonoma/.gradle/caches/8.9/transforms/d8e8c06afccf6e48afe0652270b7d294/transformed/core-1.6.1/res
+com.app.pravin_unit_testing.test.app-androidTest-2 /Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/generated/res/resValues/androidTest/debug
+com.app.pravin_unit_testing.test.app-mergeDebugAndroidTestResources-3 /Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.app.pravin_unit_testing.test.app-mergeDebugAndroidTestResources-4 /Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.app.pravin_unit_testing.test.app-debugAndroidTest-5 /Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

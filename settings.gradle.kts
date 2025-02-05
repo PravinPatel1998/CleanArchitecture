@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "RetrofitApi"
+rootProject.name = "PravinUnitTest"
 include(":app")
  

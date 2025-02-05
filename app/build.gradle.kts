@@ -8,11 +8,11 @@ plugins {
    }
 
 android {
-    namespace = "com.app.retrofitapi"
+    namespace = "com.app.pravin_unit_testing"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.app.retrofitapi"
+        applicationId = "com.app.pravin_unit_testing"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
@@ -61,6 +61,9 @@ dependencies {
     implementation(libs.androidx.lifecycle.livedata.ktx)
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
     implementation(libs.androidx.fragment.ktx)
+
+    //Unit testing
+    testImplementation(libs.mockito.core)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

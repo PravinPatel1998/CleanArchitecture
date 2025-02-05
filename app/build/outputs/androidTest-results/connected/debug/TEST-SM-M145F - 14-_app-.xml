@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.app.retrofitapi.LoginViewModelTest" tests="1" failures="1" errors="0" skipped="0" time="1.615" timestamp="2025-02-05T07:10:32" hostname="localhost">
+  <properties>
+    <property name="device" value="SM-M145F - 14" />
+    <property name="flavor" value="" />
+    <property name="project" value=":app" />
+  </properties>
+  <testcase name="registerSuccess" classname="com.app.retrofitapi.LoginViewModelTest" time="0.018">
+    <failure>java.lang.IllegalStateException: Cannot invoke setValue on a background thread
+at androidx.lifecycle.LiveData.assertMainThread(LiveData.java:502)
+at androidx.lifecycle.LiveData.setValue(LiveData.java:306)
+at androidx.lifecycle.MutableLiveData.setValue(MutableLiveData.java:50)
+at com.app.pravin_unit_testing.ui.login.LoginViewModel.register(LoginViewModel.kt:15)
+at com.app.retrofitapi.LoginViewModelTest.registerSuccess(LoginViewModelTest.kt:27)
+</failure>
+  </testcase>
+</testsuite>

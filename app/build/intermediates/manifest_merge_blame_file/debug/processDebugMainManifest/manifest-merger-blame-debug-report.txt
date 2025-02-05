@@ -1,0 +1,170 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.app.pravin_unit_testing"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:5:5-76
+11-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+12-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:6:5-73
+12-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:6:22-70
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:8:5-81
+14-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:8:22-78
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:9:5-66
+15-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:9:22-64
+16
+17    <permission
+17-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:22:5-24:47
+18        android:name="com.app.pravin_unit_testing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+18-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:23:9-81
+19        android:protectionLevel="signature" />
+19-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:24:9-44
+20
+21    <uses-permission android:name="com.app.pravin_unit_testing.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+21-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:26:5-97
+21-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:26:22-94
+22
+23    <application
+23-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:11:5-31:19
+24        android:name="com.app.pravin_unit_testing.base.App"
+24-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:20:9-60
+25        android:allowBackup="true"
+25-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:12:9-35
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.15.0] /Users/sonoma/.gradle/caches/8.9/transforms/6f2111409a77215c797f8f685e3eef99/transformed/core-1.15.0/AndroidManifest.xml:28:18-86
+27        android:dataExtractionRules="@xml/data_extraction_rules"
+27-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:13:9-65
+28        android:debuggable="true"
+29        android:extractNativeLibs="false"
+30        android:fullBackupContent="@xml/backup_rules"
+30-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:14:9-54
+31        android:icon="@mipmap/ic_launcher"
+31-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:15:9-43
+32        android:label="@string/app_name"
+32-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:16:9-41
+33        android:roundIcon="@mipmap/ic_launcher_round"
+33-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:17:9-54
+34        android:supportsRtl="true"
+34-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:18:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.RetrofitApi" >
+36-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:19:9-49
+37        <activity
+37-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:22:9-30:20
+38            android:name="com.app.pravin_unit_testing.base.MainActivity"
+38-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:23:13-73
+39            android:exported="true" >
+39-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:24:13-36
+40            <intent-filter>
+40-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:25:13-29:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:26:17-69
+41-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:26:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:28:17-77
+43-->/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/src/main/AndroidManifest.xml:28:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <provider
+47-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+48            android:name="androidx.startup.InitializationProvider"
+48-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+49            android:authorities="com.app.pravin_unit_testing.androidx-startup"
+49-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+50            android:exported="false" >
+50-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+52                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+52-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+53                android:value="androidx.startup" />
+53-->[androidx.emoji2:emoji2:1.3.0] /Users/sonoma/.gradle/caches/8.9/transforms/1c4be9771dab29d4e6d3ce362f72ea4e/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+54            <meta-data
+54-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sonoma/.gradle/caches/8.9/transforms/5bf4b5d7363cf167bbb5a2982b437ce3/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+55                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+55-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sonoma/.gradle/caches/8.9/transforms/5bf4b5d7363cf167bbb5a2982b437ce3/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+56                android:value="androidx.startup" />
+56-->[androidx.lifecycle:lifecycle-process:2.8.7] /Users/sonoma/.gradle/caches/8.9/transforms/5bf4b5d7363cf167bbb5a2982b437ce3/transformed/lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+57            <meta-data
+57-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+58                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+58-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+59                android:value="androidx.startup" />
+59-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+60        </provider>
+61
+62        <uses-library
+62-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+63            android:name="androidx.window.extensions"
+63-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+64            android:required="false" />
+64-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+65        <uses-library
+65-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+66            android:name="androidx.window.sidecar"
+66-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+67            android:required="false" />
+67-->[androidx.window:window:1.0.0] /Users/sonoma/.gradle/caches/8.9/transforms/b795340e81bfc2410dbf9a0d52926ec1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+68
+69        <service
+69-->[androidx.room:room-runtime:2.6.1] /Users/sonoma/.gradle/caches/8.9/transforms/63d8b35f70ed7cebc51b2f8f1b68bb39/transformed/room-runtime-2.6.1/AndroidManifest.xml:24:9-28:63
+70            android:name="androidx.room.MultiInstanceInvalidationService"
+70-->[androidx.room:room-runtime:2.6.1] /Users/sonoma/.gradle/caches/8.9/transforms/63d8b35f70ed7cebc51b2f8f1b68bb39/transformed/room-runtime-2.6.1/AndroidManifest.xml:25:13-74
+71            android:directBootAware="true"
+71-->[androidx.room:room-runtime:2.6.1] /Users/sonoma/.gradle/caches/8.9/transforms/63d8b35f70ed7cebc51b2f8f1b68bb39/transformed/room-runtime-2.6.1/AndroidManifest.xml:26:13-43
+72            android:exported="false" />
+72-->[androidx.room:room-runtime:2.6.1] /Users/sonoma/.gradle/caches/8.9/transforms/63d8b35f70ed7cebc51b2f8f1b68bb39/transformed/room-runtime-2.6.1/AndroidManifest.xml:27:13-37
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/sonoma/.gradle/caches/8.9/transforms/2ec1c5bff491662b95b0920e20b1a98c/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

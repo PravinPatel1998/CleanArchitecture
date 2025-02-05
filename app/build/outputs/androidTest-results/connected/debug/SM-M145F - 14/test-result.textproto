@@ -1,0 +1,73 @@
+# 2025-02-05T07:10:32.619919Z:
+test_suite_meta_data {
+  scheduled_test_case_count: 1
+}
+test_status: FAILED
+test_result {
+  test_case {
+    test_class: "LoginViewModelTest"
+    test_package: "com.app.retrofitapi"
+    test_method: "registerSuccess"
+    start_time {
+      seconds: 1738739430
+      nanos: 931000000
+    }
+    end_time {
+      seconds: 1738739430
+      nanos: 960000000
+    }
+  }
+  test_status: FAILED
+  error {
+    error_message: "java.lang.IllegalStateException: Cannot invoke setValue on a background thread\nat androidx.lifecycle.LiveData.assertMainThread(LiveData.java:502)\nat androidx.lifecycle.LiveData.setValue(LiveData.java:306)\nat androidx.lifecycle.MutableLiveData.setValue(MutableLiveData.java:50)\nat com.app.pravin_unit_testing.ui.login.LoginViewModel.register(LoginViewModel.kt:15)\nat com.app.retrofitapi.LoginViewModelTest.registerSuccess(LoginViewModelTest.kt:27)\n"
+    error_type: "java.lang.IllegalStateException"
+    stack_trace: "java.lang.IllegalStateException: Cannot invoke setValue on a background thread\nat androidx.lifecycle.LiveData.assertMainThread(LiveData.java:502)\nat androidx.lifecycle.LiveData.setValue(LiveData.java:306)\nat androidx.lifecycle.MutableLiveData.setValue(MutableLiveData.java:50)\nat com.app.pravin_unit_testing.ui.login.LoginViewModel.register(LoginViewModel.kt:15)\nat com.app.retrofitapi.LoginViewModelTest.registerSuccess(LoginViewModelTest.kt:27)\n"
+  }
+  output_artifact {
+    label {
+      label: "logcat"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/androidTest-results/connected/debug/SM-M145F - 14/logcat-com.app.retrofitapi.LoginViewModelTest-registerSuccess.txt"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/androidTest-results/connected/debug/SM-M145F - 14/device-info.pb"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.meminfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/androidTest-results/connected/debug/SM-M145F - 14/meminfo"
+    }
+  }
+  output_artifact {
+    label {
+      label: "device-info.cpuinfo"
+      namespace: "android"
+    }
+    source_path {
+      path: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/androidTest-results/connected/debug/SM-M145F - 14/cpuinfo"
+    }
+  }
+}
+output_artifact {
+  label {
+    label: "test-results.log"
+    namespace: "com.google.testing.platform.runtime.android.driver.AndroidInstrumentationDriver"
+  }
+  source_path {
+    path: "/Users/sonoma/Documents/vhits/Pravin/FlutterProjects/RetrofitApi/app/build/outputs/androidTest-results/connected/debug/SM-M145F - 14/testlog/test-results.log"
+  }
+  type: TEST_DATA
+  mime_type: "text/plain"
+}

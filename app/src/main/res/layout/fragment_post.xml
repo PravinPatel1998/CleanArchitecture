@@ -7,14 +7,14 @@
 
         <variable
             name="postViewModel"
-            type="com.app.retrofitapi.ui.post.PostViewModel" />
+            type="com.app.pravin_unit_testing.ui.post.PostViewModel" />
 
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".ui.post.Post">
+        tools:context="com.app.pravin_unit_testing.ui.post.Post">
 
         <TextView
             android:id="@+id/txt_post_label"
